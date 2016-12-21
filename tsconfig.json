@@ -7,6 +7,8 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": [ "es2015", "dom" ],
+    "rootDir": "client",
+    "outDir": "dist",
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true
   }

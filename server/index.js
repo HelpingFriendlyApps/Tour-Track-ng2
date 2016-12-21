@@ -8,7 +8,6 @@ require('./Seeds/seedRun')
 //
 //route to your index.html
 //
-// var assetFolder = Path.resolve(__dirname, '../app');
 var assetFolder = Path.resolve(__dirname, '../');
 console.log('assetFolder', assetFolder)
 routes.use(express.static(assetFolder));
